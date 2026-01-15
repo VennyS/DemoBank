@@ -11,7 +11,7 @@ import com.example.demobank.data.local.entity.Transaction
 
 @Database(
     entities = [Card::class, Transaction::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
